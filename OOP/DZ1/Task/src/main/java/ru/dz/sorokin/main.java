@@ -17,6 +17,8 @@ public class main {
         //     System.out.println(hotDrinks);
 
         System.out.println(hotDrinksVendingMachine.getProduct(90));
+        System.out.println(hotDrinksVendingMachine.getProduct("Чай",200));
+        System.out.println(hotDrinksVendingMachine.getProduct("Кофе Макиато", 100,80));
 
     }
 }
